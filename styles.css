@@ -363,4 +363,17 @@ a{text-decoration:none;color:inherit}
   .service-layout__media{
     min-height:260px;
   }
+  .form-page-intro{
+  margin-bottom: 24px;
+  max-width: 72ch;
+}
+
+.form-embed-wrap{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  box-shadow:var(--shadow2);
+  overflow:hidden;
+  padding:12px;
+}
 }
