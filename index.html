@@ -1,50 +1,276 @@
 <!doctype html>
 <html lang="pt">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>The Language Studio | Português / Français</title>
-  <meta name="description" content="The Language Studio — Escolha o seu idioma / Choisissez votre langue." />
-  <meta name="robots" content="noindex,follow" />
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Language Studio | Serviços Linguísticos</title>
+  <meta name="description" content="Serviços linguísticos profissionais em formação, tradução, revisão linguística e consultoria em inglês e alemão.">
+  <link rel="stylesheet" href="styles.css">
 </head>
+<body>
 
-<body class="bg">
-  <!-- Header simples (logo + claim) -->
-  <header class="topbar" style="position:static;">
+  <header class="topbar">
     <div class="shell topbar__inner">
-      <a class="logo" href="index.html" aria-label="The Language Studio">
-       <img src="assets/logo.png.png" alt="The Language Studio logo" class="logo-img">
+      <a class="logo" href="#inicio">
+        <img src="assets/logo.png" alt="The Language Studio" class="logo-img">
       </a>
 
-      <div class="muted" style="font-weight:700;">
-        English & German · Online · Guimarães
-      </div>
+      <nav class="nav">
+        <a href="#servicos">Serviços</a>
+        <a href="#programas">Programas</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#formularios">Formulários</a>
+        <a href="#contacto" class="btn btn--sm btn--primary">Contactar</a>
+      </nav>
     </div>
   </header>
 
-  <main class="shell center-screen" style="min-height:auto;">
-    <!-- Caixa de escolha de idioma -->
-    <div class="card card--hero">
-      <h1 class="h1" style="margin-top:0;">
-        Escolha o seu idioma<br><span class="muted">Choisissez votre langue</span>
-      </h1>
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="shell hero__inner">
+        <div class="hero__copy">
+          <p class="eyebrow">THE LANGUAGE STUDIO</p>
+          <h1 class="h1">Serviços Linguísticos Profissionais</h1>
+          <p class="lead">
+            Formação, tradução, revisão e consultoria linguística em inglês e alemão.
+          </p>
+          <p class="hero__text">
+            Apoio linguístico especializado para profissionais, estudantes e empresas
+            que procuram comunicar com confiança, clareza e precisão.
+          </p>
 
-      <div class="lang-grid">
-        <a class="btn btn--primary" href="pt.html" aria-label="Entrar em Português">Português</a>
-        <a class="btn btn--ghost" href="fr.html" aria-label="Entrer en Français">Français</a>
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#formularios">Pedir informações</a>
+            <a class="btn btn--ghost" href="#servicos">Ver serviços</a>
+          </div>
+        </div>
+
+        <div class="hero__media">
+          <div class="hero__mediaInner"></div>
+        </div>
       </div>
+    </section>
 
-      <div class="mini">
-        <span>PT: Aulas de inglês e alemão — online e em Guimarães</span>
-        <span>FR: Cours d’anglais et d’allemand — en ligne et à Guimarães</span>
+    <!-- SERVIÇOS -->
+    <section class="section section--alt" id="servicos">
+      <div class="shell">
+        <div class="section__head section__head--stack">
+          <h2 class="h2">Serviços</h2>
+          <p class="muted">
+            Soluções linguísticas especializadas para contextos académicos, profissionais e internacionais.
+          </p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card">
+            <h3 class="h3">Formação Linguística</h3>
+            <p class="p">
+              Programas de formação em inglês e alemão, com foco na comunicação real,
+              na fluência e em objetivos concretos.
+            </p>
+            <a class="text-link" href="#formacao-form">Pedir informações</a>
+          </article>
+
+          <article class="card">
+            <h3 class="h3">Tradução e Revisão Linguística</h3>
+            <p class="p">
+              Tradução, proofreading e revisão de textos académicos, profissionais,
+              institucionais e de candidatura.
+            </p>
+            <a class="text-link" href="#traducao-form">Solicitar orçamento</a>
+          </article>
+
+          <article class="card">
+            <h3 class="h3">Consultoria Linguística</h3>
+            <p class="p">
+              Apoio especializado para entrevistas, apresentações, comunicação profissional
+              e contextos internacionais.
+            </p>
+            <a class="text-link" href="#consultoria-form">Agendar contacto</a>
+          </article>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <footer class="footer footer--minimal">
-      <span>© <span id="y"></span> The Language Studio</span>
-    </footer>
+    <!-- PROGRAMAS -->
+    <section class="section" id="programas">
+      <div class="shell">
+        <div class="section__head section__head--stack">
+          <h2 class="h2">Programas e valores de referência</h2>
+          <p class="muted">
+            Valores sujeitos à natureza, extensão e objetivos do serviço.
+          </p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card">
+            <h3 class="h3">Formação Linguística</h3>
+            <p class="p">Sessões individuais personalizadas.</p>
+            <div class="price">A partir de 35€ / sessão</div>
+          </article>
+
+          <article class="card">
+            <h3 class="h3">Tradução</h3>
+            <p class="p">Projetos gerais e especializados.</p>
+            <div class="price">A partir de 0,10€ / palavra</div>
+          </article>
+
+          <article class="card">
+            <h3 class="h3">Revisão Linguística</h3>
+            <p class="p">Proofreading e revisão aprofundada.</p>
+            <div class="price">A partir de 0,04€ / palavra</div>
+          </article>
+        </div>
+
+        <div class="includes">
+          <h3 class="h3">Programas recomendados</h3>
+          <ul class="checks">
+            <li>Programa Essencial — 5 sessões</li>
+            <li>Programa Progresso — 10 sessões</li>
+            <li>Programa Fluência — 20 sessões</li>
+            <li>Pacote Carreira Internacional</li>
+            <li>Preparação para entrevistas</li>
+            <li>Revisão académica e profissional</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="section section--alt" id="sobre">
+      <div class="shell">
+        <div class="grid grid--2">
+          <div class="card card--flat">
+            <h2 class="h2">Sobre o The Language Studio</h2>
+            <p class="p">
+              O The Language Studio é um espaço dedicado a serviços linguísticos especializados,
+              combinando formação, tradução, revisão e consultoria linguística
+              com foco na comunicação clara, rigorosa e eficaz.
+            </p>
+          </div>
+
+          <div class="card card--flat">
+            <h2 class="h2">Sobre mim</h2>
+            <p class="p">
+              Especialista em Línguas e Coordenadora Pedagógica, com experiência
+              no ensino, na preparação para exames internacionais e no acompanhamento
+              linguístico de estudantes, profissionais e empresas.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMULÁRIOS -->
+    <section class="section" id="formularios">
+      <div class="shell">
+        <div class="section__head section__head--stack">
+          <h2 class="h2">Pedir informações</h2>
+          <p class="muted">
+            Escolha o formulário correspondente ao serviço pretendido.
+          </p>
+        </div>
+
+        <!-- Formação -->
+        <div class="form-block" id="formacao-form">
+          <h3 class="h3">Formação Linguística</h3>
+          <p class="p">
+            Para pedidos de aulas, programas de formação, conversação, exames
+            ou acompanhamento linguístico personalizado.
+          </p>
+
+          <!-- SUBSTITUI ESTE BLOCO PELO EMBED DO ZOHO -->
+          <div class="embed-box">
+            <p><strong>Colar aqui o embed do formulário Zoho de Formação Linguística</strong></p>
+            <p class="muted">Exemplo: iframe ou script do Zoho Webform.</p>
+          </div>
+        </div>
+
+        <!-- Tradução -->
+        <div class="form-block" id="traducao-form">
+          <h3 class="h3">Tradução e Revisão Linguística</h3>
+          <p class="p">
+            Para pedidos de tradução, proofreading, revisão aprofundada,
+            CV, cartas de motivação, textos académicos ou documentos profissionais.
+          </p>
+
+          <!-- SUBSTITUI ESTE BLOCO PELO EMBED DO ZOHO -->
+          <div class="embed-box">
+            <p><strong>Colar aqui o embed do formulário Zoho de Tradução e Revisão Linguística</strong></p>
+            <p class="muted">Exemplo: iframe ou script do Zoho Webform.</p>
+          </div>
+        </div>
+
+        <!-- Consultoria -->
+        <div class="form-block" id="consultoria-form">
+          <h3 class="h3">Consultoria Linguística</h3>
+          <p class="p">
+            Para preparação de entrevistas, apresentações, comunicação profissional
+            e apoio para contextos internacionais.
+          </p>
+
+          <!-- SUBSTITUI ESTE BLOCO PELO EMBED DO ZOHO -->
+          <div class="embed-box">
+            <p><strong>Colar aqui o embed do formulário Zoho de Consultoria Linguística</strong></p>
+            <p class="muted">Exemplo: iframe ou script do Zoho Webform.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section section--alt" id="contacto">
+      <div class="shell">
+        <div class="grid grid--2">
+          <div>
+            <h2 class="h2">Contacto</h2>
+
+            <p class="p">
+              <strong>Email:</strong><br>
+              <a href="mailto:geral@thelanguagestudio.pt">geral@thelanguagestudio.pt</a>
+            </p>
+
+            <p class="p">
+              <strong>Telefone:</strong><br>
+              <a href="tel:+351911040437">+351 911 040 437</a>
+            </p>
+
+            <p class="p">
+              <strong>Morada:</strong><br>
+              Guimarães, Portugal<br>
+              <span class="muted">Atendimento online e presencial mediante marcação.</span>
+            </p>
+          </div>
+
+          <div class="card">
+            <h3 class="h3">Informações e orçamentos</h3>
+            <p class="p">
+              Para pedidos personalizados, propostas, revisão de documentos ou serviços linguísticos
+              ajustados a necessidades específicas, utilize o formulário correspondente.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer class="footer">
+    <div class="shell footer__inner">
+      <div class="footer__brand">
+        <img src="assets/logo.png" alt="The Language Studio" class="footer-logo">
+      </div>
+
+      <div class="footer__links">
+        <a href="#servicos">Serviços</a>
+        <a href="#programas">Programas</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+
+      <div class="footer__copy">© <span id="year"></span> The Language Studio</div>
+    </div>
+  </footer>
 
   <script src="script.js"></script>
 </body>
