@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Language Studio | Contacto</title>
+  <meta name="description" content="Entre em contacto com o The Language Studio para informações, pedidos de orçamento ou serviços linguísticos.">
+  <link rel="icon" type="image/png" href="assets/icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Libre+Caslon+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="shell topbar__inner">
+      <a class="logo" href="index.html">
+        <img src="assets/logo.png" alt="The Language Studio" class="logo-img">
+      </a>
+
+      <nav class="nav">
+        <a href="index.html">Início</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="contacto.html" class="nav__active btn btn--sm btn--primary">Contactar</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="shell">
+        <p class="eyebrow">CONTACTO</p>
+        <h1 class="h1">Entre em contacto</h1>
+        <p class="lead">
+          Para informações, pedidos de orçamento ou serviços linguísticos personalizados.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="shell">
+        <div class="grid grid--2">
+          <div>
+            <h2 class="h2">Informações de contacto</h2>
+
+            <p class="p">
+              <strong>Email:</strong><br>
+              <a href="mailto:geral@thelanguagestudio.pt">geral@thelanguagestudio.pt</a>
+            </p>
+
+            <p class="p">
+              <strong>Telefone:</strong><br>
+              <a href="tel:+351911040437">+351 911 040 437</a>
+            </p>
+
+            <p class="p">
+              <strong>Morada:</strong><br>
+              Guimarães, Portugal<br>
+              <span class="muted">Atendimento online e presencial mediante marcação.</span>
+            </p>
+          </div>
+
+          <div class="card">
+            <h3 class="h3">Escolha o formulário adequado</h3>
+            <p class="p">
+              Para garantir um acompanhamento mais rápido e organizado, selecione o formulário correspondente ao serviço pretendido.
+            </p>
+
+            <div class="contact-links">
+              <a class="btn btn--primary" href="LINK_FORMACAO" target="_blank" rel="noopener">Formação Linguística</a>
+              <a class="btn btn--ghost" href="LINK_TRADUCAO" target="_blank" rel="noopener">Tradução e Revisão Linguística</a>
+              <a class="btn btn--ghost" href="LINK_CONSULTORIA" target="_blank" rel="noopener">Consultoria Linguística</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer__inner">
+      <div class="footer__brand">
+        <img src="assets/logo.png" alt="The Language Studio" class="footer-logo">
+      </div>
+      <div class="footer__links">
+        <a href="index.html">Início</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="contacto.html">Contacto</a>
+      </div>
+      <div class="footer__copy">© <span id="year"></span> The Language Studio</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
