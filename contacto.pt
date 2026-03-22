@@ -4,15 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>The Language Studio | Contacto</title>
-  <meta name="description" content="Entre em contacto com o The Language Studio para informações, pedidos de orçamento ou serviços linguísticos.">
+  <meta name="description" content="Entre em contacto com o The Language Studio e escolha o formulário mais adequado ao seu pedido.">
   <link rel="icon" type="image/png" href="assets/icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Libre+Caslon+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
   <header class="topbar">
     <div class="shell topbar__inner">
       <a class="logo" href="index.html">
@@ -23,7 +22,7 @@
         <a href="index.html">Início</a>
         <a href="servicos.html">Serviços</a>
         <a href="sobre.html">Sobre</a>
-        <a href="contacto.html" class="nav__active btn btn--sm btn--primary">Contactar</a>
+        <a href="contacto.html" class="btn btn--sm btn--primary">Contactar</a>
       </nav>
     </div>
   </header>
@@ -32,47 +31,77 @@
     <section class="page-hero">
       <div class="shell">
         <p class="eyebrow">CONTACTO</p>
-        <h1 class="h1">Entre em contacto</h1>
+        <h1 class="h1">Escolha o formulário mais adequado ao seu pedido.</h1>
         <p class="lead">
-          Para informações, pedidos de orçamento ou serviços linguísticos personalizados.
+          Para tornar o contacto mais simples e mais claro, cada área de serviço tem um formulário próprio. Selecione abaixo a opção mais adequada ao seu objetivo.
         </p>
       </div>
     </section>
 
-    <section class="section">
+    <section class="section section--alt">
       <div class="shell">
-        <div class="grid grid--2">
-          <div>
-            <h2 class="h2">Informações de contacto</h2>
+        <div class="section__head section__head--stack">
+          <p class="eyebrow">FORMULÁRIOS</p>
+          <h2 class="h2">Pedidos por área de serviço</h2>
+          <p class="muted">
+            Cada formulário foi pensado para recolher a informação mais relevante para cada tipo de pedido.
+          </p>
+        </div>
 
-            <p class="p">
-              <strong>Email:</strong><br>
-              <a href="mailto:geral@thelanguagestudio.pt">geral@thelanguagestudio.pt</a>
+        <div class="grid grid--3">
+          <article class="card contact-service-card">
+            <p class="eyebrow">FORMAÇÃO</p>
+            <h3 class="h3">Formação Linguística</h3>
+            <p>
+              Para pedidos de informações sobre aulas, programas personalizados, objetivos de aprendizagem e disponibilidade.
             </p>
+            <div class="card-actions">
+              <a class="btn btn--primary" href="formacao.html">Abrir formulário</a>
+            </div>
+          </article>
 
-            <p class="p">
-              <strong>Telefone:</strong><br>
-              <a href="tel:+351911040437">+351 911 040 437</a>
+          <article class="card contact-service-card">
+            <p class="eyebrow">TRADUÇÃO</p>
+            <h3 class="h3">Tradução e Revisão Linguística</h3>
+            <p>
+              Para pedidos de orçamento, revisão de textos, proofreading, tradução de documentos e outros conteúdos escritos.
             </p>
+            <div class="card-actions">
+              <a class="btn btn--primary" href="traducao.html">Abrir formulário</a>
+            </div>
+          </article>
 
-            <p class="p">
-              <strong>Morada:</strong><br>
-              Guimarães, Portugal<br>
-              <span class="muted">Atendimento online e presencial mediante marcação.</span>
+          <article class="card contact-service-card">
+            <p class="eyebrow">CONSULTORIA</p>
+            <h3 class="h3">Consultoria Linguística</h3>
+            <p>
+              Para apoio em entrevistas, apresentações, comunicação profissional e preparação para contextos internacionais.
             </p>
+            <div class="card-actions">
+              <a class="btn btn--primary" href="consultoria.html">Abrir formulário</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="shell contact-direct card">
+        <p class="eyebrow">CONTACTO DIRETO</p>
+        <h2 class="h2">Precisa de um contacto mais geral?</h2>
+        <p class="lead">
+          Se o seu pedido não se enquadrar diretamente numa das áreas acima, pode entrar em contacto por email.
+        </p>
+
+        <div class="contact-meta">
+          <div class="contact-meta__item">
+            <span class="contact-meta__label">Email</span>
+            <a href="mailto:geral@thelanguagestudio.pt">geral@thelanguagestudio.pt</a>
           </div>
 
-          <div class="card">
-            <h3 class="h3">Escolha o formulário adequado</h3>
-            <p class="p">
-              Para garantir um acompanhamento mais rápido e organizado, selecione o formulário correspondente ao serviço pretendido.
-            </p>
-
-            <div class="contact-links">
-              <a class="btn btn--primary" href="LINK_FORMACAO" target="_blank" rel="noopener">Formação Linguística</a>
-              <a class="btn btn--ghost" href="LINK_TRADUCAO" target="_blank" rel="noopener">Tradução e Revisão Linguística</a>
-              <a class="btn btn--ghost" href="LINK_CONSULTORIA" target="_blank" rel="noopener">Consultoria Linguística</a>
-            </div>
+          <div class="contact-meta__item">
+            <span class="contact-meta__label">Resposta</span>
+            <p>Resposta com a maior brevidade possível.</p>
           </div>
         </div>
       </div>
@@ -81,16 +110,18 @@
 
   <footer class="footer">
     <div class="shell footer__inner">
-      <div class="footer__brand">
-        <img src="assets/logo.png" alt="The Language Studio" class="footer-logo">
-      </div>
-      <div class="footer__links">
+      <a class="footer__brand" href="index.html">
+        <img src="assets/logo-light.png" alt="The Language Studio">
+      </a>
+
+      <nav class="footer__nav">
         <a href="index.html">Início</a>
         <a href="servicos.html">Serviços</a>
         <a href="sobre.html">Sobre</a>
         <a href="contacto.html">Contacto</a>
-      </div>
-      <div class="footer__copy">© <span id="year"></span> The Language Studio</div>
+      </nav>
+
+      <p>© <span id="year"></span> The Language Studio</p>
     </div>
   </footer>
 
