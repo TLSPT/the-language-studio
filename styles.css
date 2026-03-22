@@ -160,9 +160,15 @@ p{
 }
 
 .btn--primary{
-  background:var(--ink);
-  color:#fff;
-  border:none;
+  background:var(--primary);
+  color:#ffffff;
+  border:1px solid var(--primary);
+}
+
+.btn--primary:hover{
+  background:var(--primary);
+  color:#ffffff;
+  opacity:.9;
 }
 
 /* HERO */
