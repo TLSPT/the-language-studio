@@ -441,6 +441,18 @@ p{
   align-self:flex-start;
 }
 
+.card-actions .btn--primary{
+  background: var(--ink);
+  color: #ffffff !important;
+  border: 1px solid var(--ink);
+}
+
+.card-actions .btn--primary:hover{
+  background: var(--ink2);
+  color: #ffffff !important;
+  border-color: var(--ink2);
+}
+
 .contact-direct{
   max-width:760px;
 }
